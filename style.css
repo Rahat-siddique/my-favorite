@@ -1,0 +1,46 @@
+img {
+    width: 30%;
+}
+body {
+    text-align: center;
+}
+h2 {
+    font-variant: small-caps;
+    margin: 5px;
+}
+h1 {
+    font-size: 50px;
+    color: green;
+    margin:5px;
+}
+p {
+    font-size: 20px;
+    word-spacing:2px;
+    text-align: justify;
+    padding: 5px 5%;
+}
+#menu {
+    position: fixed;
+    background-color: green;
+    top:0;
+    left:0;
+    right:0;
+    margin: 0;
+    list-style: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#menu>li {
+    display: inline;
+    padding:10px;
+}
+#menu>li>a { 
+    font-size: 25px;
+    text-decoration: none;
+    color:blue;
+    font-weight: bold;
+}
+body {
+    background-color: black;
+    color:white
+}
